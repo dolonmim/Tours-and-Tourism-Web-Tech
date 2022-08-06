@@ -125,8 +125,8 @@ session_start();
 						</tr>
 
 						<tr>
-							<td><a href="../controller/update.php" style="background-color: mediumseagreen; color: white; font-size:30; font-family:Times New Roman;width:80%;">Edit Profile</a></td>
-							<!-- <td><input type="submit" name="delete"  value="Delete Profile" style="background-color: mediumseagreen; color: white; font-size:30; font-family:Times New Roman;width:80%;"></td> -->
+							<td><a href="../view/edit.php" style="background-color: mediumseagreen; color: white; font-size:30; font-family:Times New Roman;width:80%;">Edit Profile</a></td>
+							<!-- <td><input type="submit" name="update" value="Edit Profile" style="background-color: mediumseagreen; color: white; font-size:30; font-family:Times New Roman;width:80%;margin:15%;"></td> -->
 						
 							<td><a href="../controller/deletecheck.php" style="background-color: mediumseagreen; color: white; font-size:30; font-family:Times New Roman;width:80%;">Delete Profile</a></td>
 						</tr>

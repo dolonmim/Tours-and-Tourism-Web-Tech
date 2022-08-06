@@ -17,25 +17,13 @@
        while($row = $status->fetch_assoc())
 
        {
-
-   
-
-		setcookie('status', 'true', time()+3600, '/');
+        setcookie('status', 'true', time()+3600, '/');
 		$_SESSION["id"]=$row["ID"];
-		header('location: ../view/home.php');
+		header('location: ../view/view.php');
 
        }
 
-
-
     }
-
-		//if($status){
-			
-		//}else{
-			//echo "invalid user!";
-		///}
-
 		
 	}
 ?>
