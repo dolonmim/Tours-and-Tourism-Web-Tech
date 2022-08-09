@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+
+	<title>Login Form</title>
+</head>
+<body>
+	<div class="container">
+		<form action="../controller/loginCheck.php" method="POST" class="login-email">
+			<center><p class="login-text" style="font-size: 2rem; font-weight: 800;">Login</p>
+			
+				<table border="5">
+				<input type="email" placeholder="Email" name="email" value="" required>
+				
+				</div>
+				<div>
+				</div>
+				<div>
+			
+				<input type="password" placeholder="Password" name="password" value="" id="Show" required>
+				<label>Show Password</label>
+				<input type="checkbox" placeholder="" name="" onclick="myFunction()" value="" >
+                <p> <a href="../view/resetpass.php">Forgot password?</a></p>
+
+
+				<script >
+					function myFunction()
+					{
+						var show=document.getElementById('Show')
+						if(show.type=='password')
+						{
+							show.type='text';
+
+						}
+						else
+						{
+							show.type='password';
+
+						}
+					}
+				
+
+				</script>
+
+				
+			</div>
+			<div >
+				<input type="submit" name="submit" value="Login" class="btn"></button>
+			</div>
+			<p>Don't have an account? <a href="../view/signup.php">Register Here</a>.</p>
+		</div>
+			</center>
+		</table>
+		</form>
+	</div>
+</body>
+</html>
